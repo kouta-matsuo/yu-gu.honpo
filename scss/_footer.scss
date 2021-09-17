@@ -1,0 +1,66 @@
+// 
+// footerのスタイル
+// 
+.footer {
+    margin-top: 10rem;
+    background-color: $green;
+    text-align: center;
+    padding-bottom: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    @media(min-width: 769px) {
+        margin-top: 15rem;
+    }
+    &__logo {
+        padding: 2rem 0 2rem 2rem;
+        font-size: 1.6rem;
+        text-align: left;
+        @media(min-width: 769px) {
+            padding: 3rem 0 3rem 5rem;
+            font-size: 2rem;
+        }
+    }
+    &__nav-lists {
+        display: flex;
+        flex-wrap: wrap;
+        @media(min-width: 769px) {
+            padding-left: 5rem;
+            padding-bottom: 4rem;
+        }
+            &__list {
+                list-style: none;
+                width: 50%;
+                padding-bottom: 2rem;
+                @media(min-width: 769px) {
+                    padding:0;
+                    width: calc((100% -5rem) / 5);
+                    transition: .5s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+                &__link {
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    color: #000;
+                    text-align: center;
+                    @media(min-width: 769px) {
+                        font-size: 1.4rem;
+                    }
+                    
+                        @media(min-width: 769px) {
+                            transition: .5s;
+                            &:hover {
+                                color: $white;
+                        }
+                    }
+            }
+        }
+    }
+    &__copy {
+        @media(min-width: 769px) {
+            font-size: 1.2rem;
+        }
+    }
+}

@@ -1,0 +1,94 @@
+// 
+// contactのサブページ
+// 
+.header2__catch--contact-img {
+    background-image: url(../images/contact.jpg);
+}
+.contact-container {
+    padding-top: 5rem;
+    &__text, &__text--pa-bottom {
+        padding-bottom: 1.5rem;
+        font-size: 1.4rem;
+    }
+    &__text--pa-bottom {
+        padding-bottom: 5rem;
+    }
+    &__form {
+        &__lists__list {
+            list-style: none;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: right;
+            padding-bottom: 2rem;
+            font-size: 1.2rem;
+            @media(min-width: 769px) {
+                flex-direction: row;
+                padding-bottom: 5rem;
+            }
+            &:last-child {
+                padding: 0;
+            }
+            &__label {
+                margin-left: 0;
+                margin-right: auto; 
+                @media(min-width: 769px) {
+                    width: 40%;
+                   display: flex;
+                   justify-content: flex-start;
+                }
+            }
+            &__radio-label {
+                padding-right: 1.5rem;
+                @media(min-width: 769px) {
+                    padding-right: 3rem;
+                }
+            }
+            &__form-area{
+                width: 100%;
+                margin-left: 0;
+                margin-right: auto;
+                height: 3rem;
+                @media(min-width: 769px) {
+                    width: 60%;
+                }
+            }
+            &__text-filed {
+                height: 6rem;
+            }
+            &__radio{
+                flex-direction: row;
+                padding-bottom: 2rem;
+                @media(min-width: 769px) {
+                    padding-bottom: 5rem;
+                }
+            }
+            &__button {
+                justify-content: center;
+                &__btn {
+                    width: 12rem;
+                    height: 3rem;
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    background-color: $yellow;
+                    border: .1rem solid $green;
+                    border-radius: 5rem;
+                    @media(min-width: 769px) {
+                        transition: .5s;
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+            }
+        }
+        
+        
+        
+        
+        
+    }
+}
