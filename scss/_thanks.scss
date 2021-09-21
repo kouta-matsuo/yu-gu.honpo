@@ -6,43 +6,48 @@
     @media(min-width: 769px) {
         padding-top: 10rem;
     }
-   .thanks-content {
+}
+   .thanks__container {
        @media(min-width: 769px) {
        display: flex;
        justify-content: center;
        align-items: center;
        padding-bottom: 5rem;
        }
-       .thanks-img {
+       &-photo {
            display: none;
            @media(min-width: 769px) {
                display: block;
                width: 50%;
+           }
+       }
 
-               img {
+               &-img {
                    width: 100%;
                    height: auto
                }
-           }
-       }
-       .thanks-content2 {
+           
+       
+       &-box {
            @media(min-width: 769px) {
                width: 50%;
            }
-        h4 {
+       }
+        &-heading {
             font-size: 2.4rem;
             text-align: center;
         }
-        p {
+        &-text {
             font-size: 1.4rem;
             padding: 5rem 0 3rem;
             @media(min-width: 769px) {
                 padding: 5rem 0 0 3rem;
             }
         }
-       }
+       
    }
-    a {
+    
+     .thanks__container-top-button {
         text-align: center;
         font-size: 1.4rem;
         text-decoration: none;
@@ -63,4 +68,3 @@
             }
         }
     }
-}
