@@ -768,65 +768,67 @@ ul .slick-active {
   background-image: url(../images/work.jpg);
 }
 
-.work-container {
+.work__container {
   padding-top: 5rem;
 }
 @media (min-width: 769px) {
-  .work-container {
+  .work__container {
     padding-top: 10rem;
   }
 }
 @media (min-width: 769px) {
-  .work-container__top {
+  .work__container-top {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
-.work-container__top__photo {
+.work__container-photo {
   display: none;
 }
 @media (min-width: 769px) {
-  .work-container__top__photo {
+  .work__container-photo {
     display: block;
     width: 50%;
   }
-  .work-container__top__photo__img {
+}
+@media (min-width: 769px) {
+  .work__container-img {
     width: 100%;
     height: auto;
   }
 }
 @media (min-width: 769px) {
-  .work-container__top__textarea {
+  .work__container-text-area {
     width: 50%;
   }
 }
-.work-container__top__textarea__text {
+.work__container-text {
   font-size: 1.2rem;
   line-height: 2rem;
 }
 @media (min-width: 769px) {
-  .work-container__top__textarea__text {
+  .work__container-text {
     width: 100%;
     text-align: justify;
     font-size: 1.6rem;
     padding-left: 2rem;
   }
 }
-.work-container__carousel {
+.work__container__carousel {
   padding-top: 5rem;
 }
 @media (min-width: 769px) {
-  .work-container__carousel {
+  .work__container__carousel {
     padding-top: 10rem;
   }
 }
-.work-container__carousel__content__img {
+.work__container__carousel-img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
-.work-container__carousel__content__textarea {
+.work__container__carousel-text-area {
   border: 0.1rem solid #000;
   border-top: none;
   display: flex;
@@ -835,19 +837,19 @@ ul .slick-active {
   height: 4rem;
   margin-bottom: 2rem;
 }
-.work-container__carousel__content__textarea__text {
+.work__containercarousel-text {
   font-size: 1.2rem;
 }
-.work-container__carousel .slick-dots {
+.work__container .slick-dots {
   position: static;
 }
-.work-container__carousel li button:before {
+.work__container li button:before {
   opacity: 1;
   color: #000;
   z-index: 3;
   font-size: 1rem;
 }
-.work-container__carousel li.slick-active button:before {
+.work__container li.slick-active button:before {
   opacity: 1;
   color: #009900;
   font-size: 1.2rem;
