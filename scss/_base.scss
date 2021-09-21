@@ -39,8 +39,8 @@ main {
         margin: 0 10rem;
     }
 }
-.content--right__text-area__button--right__text--center,
-.content--left__textarea__link
+.container__right-button--right,
+.container__left-link
  {
     text-align: center;
     font-size: 1.4rem;
@@ -77,7 +77,7 @@ main {
 
 
 
-.more-left {
+/*.more-left {
     margin: 0 auto;
     @media(min-width: 769px) {
         margin: 0 auto;
@@ -89,5 +89,6 @@ main {
     opacity: 0;
 }
 
+*/
 
 

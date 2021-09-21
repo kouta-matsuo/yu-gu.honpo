@@ -1,13 +1,16 @@
 // 
 // headerのスタイル
 // 
+
 header {
-    position: relative;
     width: 100%;
     height: auto;
     overflow-x: hidden;
+    position: relative;
+}
 
 .header {
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -32,7 +35,8 @@ header {
                 transform: scale(1.2);
             }
         }
-        &__text {
+    }
+        &__logo-text {
             margin: 0;
             color: $green;
             font-size: 2.4rem;
@@ -44,29 +48,38 @@ header {
                 padding-left: 5rem;
             }
         }
-    }
-    &__menuBtn--open, &__menuBtn--close {
+    
+    &__menu-btn--open,&__menu-btn--close {
         @media(min-width: 769px) {
             display: none;
         }
+    }
+    &__menu-btn--close {
+        display: none;
+    }
         i {
             color: $green;
             font-size: 2.4rem;
         }
-    }
-    &__menuBtn--close {
-        display: none;
-    }
-    .pc-nav {
+    
+    
+    &__pc-nav {
         display: none;
         @media(min-width: 769px) {
             display: block;
-            &__lists {
+        }
+    }
+            &__pc-nav-lists {
+                @media(min-width: 769px) {
                 display: flex;
-                    &__list {
+                }
+            }
+                    &__pc-nav-list {
+                        @media(min-width: 769px) {
                         list-style: none;
                         padding-right: 2rem;
                         transition: .5s;
+                        }
                         @media(min-width: 1100px) {
                             padding-right: 5rem;
                         }
@@ -75,22 +88,25 @@ header {
                                 transform: scale(1.2);
                             }
                         }
-                        &__link {
+                    }
+                        &__pc-nav-link {
+                            @media(min-width: 769px) {
                             text-decoration: none;
                             color: $green;
                             font-size: 1.4rem;
                             font-weight: bold;
+                            }
                             @media(min-width: 1100px) {
                                 font-size: 1.6rem;
                             }
                     }
-                }
-            }
-        }
-    }
+                
+            
+        
+    
    
-}
-.sp-nav {
+
+&__sp-nav {
     position: fixed;
     top: 5rem;
     left: 0;
@@ -105,22 +121,25 @@ header {
     @media(min-width: 769px) {
         display: none;
     }
-    &__lists {
+}
+    &__sp-nav-lists {
         padding-top: 8rem;
         text-align: center;
-        &__list {
+    }
+        &__sp-nav-list {
             list-style: none;
             padding-bottom: 6rem;
-            &__link {
+        }
+            &__sp-nav-link {
                 color: $white;
                 text-decoration: none;
                 font-size: 2.4rem;
             }
-        }
-    }
-}
+        
+    
 
-.catch-top {
+}
+.catch {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,7 +151,8 @@ header {
     }
     &__carousel {
         width: 100vw;
-        &__img {
+    }
+        &__carousel-img {
             object-fit: cover;
             height: auto;
             width: 100%;
@@ -141,8 +161,8 @@ header {
                 height: 100vh;
             }
         }
-    }
-     &__content {
+    
+     &__container {
         position: absolute;
         background: rgba(0,153,0,.7);
         width: 85%;
@@ -153,7 +173,8 @@ header {
         @media(min-width: 1100px) {
             margin: 0 18.3rem;
         }
-        &__text {
+     }
+        &__container-text {
             text-align: center;
             color: $white;
             font-size: 2.4rem;
@@ -161,8 +182,7 @@ header {
                 font-size: 3.6rem;
             }
         }
-}
-}
+
 }
 
 

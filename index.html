@@ -10,13 +10,10 @@
     <!-- CSS -->
     <link rel="preload" as="font" href="./fonts/noto-sans-jp-v28-latin-regular.woff2" crossorigin>
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" media="print" onload="this.media='all'" type="text/css"
-        href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" media="print" onload="this.media='all'" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" media="print" onload="this.media='all'" type="text/css"
-        href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" media="print" onload="this.media='all'"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" media="print" onload="this.media='all'" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" media="print" onload="this.media='all'" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./css/style.css">
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/3aaa0ce915.js" defer crossorigin="anonymous"></script>
@@ -28,119 +25,113 @@
     <header>
         <div class="header">
             <a href="index.html" class="header__logo">
-                <h1 class="header__logo__text">遊具本舗</h1>
+                <h1 class="header__logo-text">遊具本舗</h1>
             </a>
-            <div class="nav-button animate__animated header__menuBtn--open"><i class="fas fa-bars"></i></div>
-            <div class="nav-button close animate__animated header__menuBtn--close"><i class="fas fa-times"></i></div>
+            <div class="nav-button animate__animated header__menu-btn--open"><i class="fas fa-bars header__menu-btn"></i></div>
+            <div class="nav-button close animate__animated header__menu-btn--close"><i class="fas fa-times hader__menu-btn"></i></div>
             <!-- pcナビメニュー -->
-            <nav class="pc-nav">
-                <ul class="pc-nav__lists nav-list">
-                    <li class="pc-nav__lists__list"><a href="about.html" class="pc-nav__lists__list__link">遊具本舗について</a>
+            <nav class="header__pc-nav">
+                <ul class="header__pc-nav-lists nav-list">
+                    <li class="header__pc-nav-list"><a href="about.html" class="header__pc-nav-link">遊具本舗について</a>
                     </li>
-                    <li class="pc-nav__lists__list"><a href="seisaku.html" class="pc-nav__lists__list__link">制作について</a>
+                    <li class="header__pc-nav-list"><a href="seisaku.html" class="header__pc-nav-link">制作について</a>
                     </li>
-                    <li class="pc-nav__lists__list"><a href="work.html" class="pc-nav__lists__list__link">制作実績</a></li>
-                    <li class="pc-nav__lists__list"><a href="recruit.html" class="pc-nav__lists__list__link">採用情報</a>
+                    <li class="header__pc-nav-list"><a href="work.html" class="header__pc-nav-link">制作実績</a></li>
+                    <li class="header__pc-nav-list"><a href="recruit.html" class="header__pc-nav-link">採用情報</a>
                     </li>
-                    <li class="pc-nav__lists__list"><a href="contact.html" class="pc-nav__lists__list__link">お問い合わせ</a>
+                    <li class="header__pc-nav-list"><a href="contact.html" class="header__pc-nav-link">お問い合わせ</a>
                     </li>
                 </ul>
             </nav>
             <!-- spナビメニュー -->
-            <nav class="sp-nav animate__animated">
-                <ul class="sp-nav__lists nav-list">
-                    <li class="sp-nav__lists__list"><a href="about.html" class="sp-nav__lists__list__link">遊具本舗について</a>
+            <nav class="header__sp-nav sp-nav animate__animated">
+                <ul class="header__sp-nav-lists nav-list">
+                    <li class="header__sp-nav-list"><a href="about.html" class="header__sp-nav-link">遊具本舗について</a>
                     </li>
-                    <li class="sp-nav__lists__list"><a href="seisaku.html" class="sp-nav__lists__list__link">制作について</a>
+                    <li class="header__sp-nav-list"><a href="seisaku.html" class="header__sp-nav-link">制作について</a>
                     </li>
-                    <li class="sp-nav__lists__list"><a href="work.html" class="sp-nav__lists__list__link">制作実績</a></li>
-                    <li class="sp-nav__lists__list"><a href="recruit.html" class="sp-nav__lists__list__link">採用情報</a>
+                    <li class="header__sp-nav-list"><a href="work.html" class="header__sp-nav-link">制作実績</a></li>
+                    <li class="header__sp-nav-list"><a href="recruit.html" class="header__sp-nav-link">採用情報</a>
                     </li>
-                    <li class="sp-nav__lists__list"><a href="contact.html" class="sp-nav__lists__list__link">お問い合わせ</a>
+                    <li class="header__sp-nav-list"><a href="contact.html" class="header__sp-nav-link">お問い合わせ</a>
                     </li>
                 </ul>
             </nav>
         </div>
 
-        <div class="catch-top">
-            <div class="carousel catch-top__carousel">
-                <img class="catch-top__carousel__img" src="./images/carousel/sp-carousel.jpg" alt="遊具で遊んでいる">
-                <img class="catch-top__carousel__img" src="./images/carousel/sp-carousel2.jpg" alt="遊具で遊んでいる">
-                <img class="catch-top__carousel__img" src="./images/carousel/pc-carousel4.jpg" alt="遊具で遊んでいる">
+        <div class="catch">
+            <div class="carousel catch__carousel">
+                <img class="catch__carousel-img" src="./images/carousel/sp-carousel.jpg" alt="遊具で遊んでいる">
+                <img class="catch__carousel-img" src="./images/carousel/sp-carousel2.jpg" alt="遊具で遊んでいる">
+                <img class="catch__carousel-img" src="./images/carousel/pc-carousel4.jpg" alt="遊具で遊んでいる">
             </div>
-            <div class="catch-top__content">
-                <h2 class="catch-top__content__text">楽しいと感じて貰いたい</h2>
+            <div class="catch__container">
+                <h2 class="catch__container-text">楽しいと感じて貰いたい</h2>
             </div>
         </div>
     </header>
     <!-- メイン -->
     <main>
         <!-- 遊具本舗について -->
-        <section class="content--right animate__animated">
-            <div class="content--right__photo"><img class="content--right__photo__img" src="./images/about-2.jpg"
-                    alt="ジャングルジム"></div>
-            <div class="content--right__text-area">
+        <section class="container__right animate__animated">
+            <div class="container__right-photo"><img class="container__right-img" src="./images/about-2.jpg" alt="ジャングルジム"></div>
+            <div class="container__right-text-area">
                 <!-- 背景の円 -->
-                <div class="content--right__text-area--circle"></div>
-                <h4 class="content--right__text-area__catch">遊具本舗について</h4>
-                <p class="content--right__text-area__text">私たち遊具本舗は皆さんの楽しいを作ることのできる唯一の会社です。</p>
-                <div class="content--right__text-area__button--right"><a href="about.html"
-                        class="more content--right__text-area__button--right__text--center">詳しく→</a></div>
+                <div class="container__right-circle"></div>
+                <h4 class="container__right-heading">遊具本舗について</h4>
+                <p class="container__right-text">私たち遊具本舗は皆さんの楽しいを作ることのできる唯一の会社です。</p>
+                <div class="container__right-button--right"><a href="about.html" class="more container__right-button-link">詳しく→</a></div>
             </div>
         </section>
 
         <!-- 制作について -->
-        <section class="seisaku content--left animate__animated">
-            <div class="content--left__photo"><img class="content--left__photo__img" src="./images/seisaku.jpg" alt="鉄の加工"></div>
-            <div class="content--left__textarea">
+        <section class="container__left animate__animated">
+            <div class="container__left-photo"><img class="container__left-img" src="./images/seisaku.jpg" alt="鉄の加工"></div>
+            <div class="container__left-text-area">
                 <!-- 背景の円 -->
-                <div class="content--left__textarea__circle--left"></div>
-                <h4 class="content--left__textarea__heading">制作について</h4>
-                <p class="content--left__textarea__text">公園の遊具から家庭用の遊具、ベンチまで
-                    幅広く世界に一つだけのオーダーメイド商品を
-                    作ることも可能です。</p>
-                <a href="seisaku.html" class="more content--left__textarea__link">詳しく→</a>
+                <div class="container__left-circle"></div>
+                <h4 class="container__left-heading">制作について</h4>
+                <p class="container__left-text">公園の遊具から家庭用の遊具、ベンチまで 幅広く世界に一つだけのオーダーメイド商品を 作ることも可能です。
+                </p>
+                <a href="seisaku.html" class="more container__left-link">詳しく→</a>
             </div>
         </section>
 
         <!-- 制作実績 -->
-        <section class="work content--right animate__animated">
-            <div class="content--right__photo"><img class="content--right__photo__img" src="./images/work.jpg"
-                    alt="ブランコ"></div>
-            <div class="content--right__text-area">
+        <section class="container__right animate__animated">
+            <div class="container__right-photo"><img class="container__right-img" src="./images/work.jpg" alt="ブランコ"></div>
+            <div class="container__right-text-area">
                 <!-- 背景の円 -->
-                <div class="content--right__text-area--circle "></div>
-                <h4 class="content--right__text-area__catch">制作実績</h4>
-                <p class="content--right__text-area__text">遊具本舗が心を込めて制作してきた
-                    ゆうぐの紹介です。</p>
-                <div class="content--right__text-area__button--right"><a href="work.html"
-                        class="more content--right__text-area__button--right__text--center">詳しく→</a></div>
+                <div class="container__right-circle "></div>
+                <h4 class="container__right-heading">制作実績</h4>
+                <p class="container__right-text">遊具本舗が心を込めて制作してきた ゆうぐの紹介です。
+                </p>
+                <div class="container__right-button--right">
+                    <a href="work.html" class="more container__right-button-link">詳しく→</a></div>
             </div>
         </section>
 
         <!-- 採用情報 -->
-        <section class="content--left animate__animated">
-            <div class="content--left__photo"><img class="content--left__photo__img" src="./images/saiyou1.jpg" alt="円陣"></div>
-            <div class="content--left__textarea">
+        <section class="container__left animate__animated">
+            <div class="container__left-photo"><img class="container__left-img" src="./images/saiyou1.jpg" alt="円陣"></div>
+            <div class="container__left-text-area">
                 <!-- 背景の円 -->
-                <div class="content--left__textarea__circle--left"></div>
-                <h4 class="content--left__textarea__heading">採用情報</h4>
-                <p class="content--left__textarea__text">私たちと楽しく仕事をしてくれる仲間を募集しています。</p>
-                <a href="recruit.html" class="content--left__textarea__link">詳しく→</a>
+                <div class="container__left-circle"></div>
+                <h4 class="container__left-heading">採用情報</h4>
+                <p class="container__left-text">私たちと楽しく仕事をしてくれる仲間を募集しています。</p>
+                <a href="recruit.html" class="container__left-link">詳しく→</a>
             </div>
         </section>
 
         <!-- お問い合わせ -->
-        <section class="contact content--right animate__animated">
-            <div class="content--right__photo"><img class="content--right__photo__img" src="./images/contact.jpg"
-                    alt="握手している写真"></div>
-            <div class="content--right__text-area animate__animated">
+        <section class="container__right animate__animated">
+            <div class="container__right-photo"><img class="container__right-img" src="./images/contact.jpg" alt="握手している写真"></div>
+            <div class="container__right-text-area animate__animated">
                 <!-- 背景の円 -->
-                <div class="content--right__text-area--circle"></div>
-                <h4 class="content--right__text-area__catch">お問い合わせ</h4>
-                <p class="content--right__text-area__text">制作についてのご質問やお問い合わせはお気軽にこちらから</p>
-                <div class="content--right__text-area__button--right"><a href="contact.html"
-                        class="more content--right__text-area__button--right__text--center">フォームへ→</a></div>
+                <div class="container__right-circle"></div>
+                <h4 class="container__right-heading">お問い合わせ</h4>
+                <p class="container__right-text">制作についてのご質問やお問い合わせはお気軽にこちらから</p>
+                <div class="container__right-button--right"><a href="contact.html" class="more container__right-button-link">フォームへ→</a></div>
             </div>
         </section>
     </main>
@@ -149,15 +140,15 @@
     <footer class="footer">
         <h3 class="footer__logo">遊具本舗</h3>
         <ul class="footer__nav-lists">
-            <li class="footer__nav-lists__list"><a class="footer__nav-lists__list__link" href="about.html">遊具本舗について</a></li>
-            <li class="footer__nav-lists__list"><a class="footer__nav-lists__list__link" href="seisaku.html">制作について</a></li>
-            <li class="footer__nav-lists__list"><a class="footer__nav-lists__list__link" href="work.html">制作実績</a></li>
-            <li class="footer__nav-lists__list"><a class="footer__nav-lists__list__link" href="recruit.html">採用情報</a></li>
-            <li class="footer__nav-lists__list"><a class="footer__nav-lists__list__link" href="contact.html">お問い合わせ</a></li>
+            <li class="footer__nav-lists-list"><a class="footer__nav-lists-link" href="about.html">遊具本舗について</a></li>
+            <li class="footer__nav-lists-list"><a class="footer__nav-lists-link" href="seisaku.html">制作について</a></li>
+            <li class="footer__nav-lists-list"><a class="footer__nav-lists-link" href="work.html">制作実績</a></li>
+            <li class="footer__nav-lists-list"><a class="footer__nav-lists-link" href="recruit.html">採用情報</a></li>
+            <li class="footer__nav-lists-list"><a class="footer__nav-lists-link" href="contact.html">お問い合わせ</a></li>
         </ul>
         <small class="footer__copy">©️yu-gu.honpo</small>
     </footer>
-    　　　　　　
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/hamburger.js"></script>
