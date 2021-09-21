@@ -959,17 +959,17 @@ ul .slick-active {
   background-image: url(../images/contact.jpg);
 }
 
-.contact-container {
+.contact__container {
   padding-top: 5rem;
 }
-.contact-container__text, .contact-container__text--pa-bottom {
+.contact__container-text, .contact__container-text--padding {
   padding-bottom: 1.5rem;
   font-size: 1.4rem;
 }
-.contact-container__text--pa-bottom {
+.contact__container-text--padding {
   padding-bottom: 5rem;
 }
-.contact-container__form__lists__list {
+.contact__container-form-list {
   list-style: none;
   width: 100%;
   display: flex;
@@ -981,60 +981,61 @@ ul .slick-active {
   font-size: 1.2rem;
 }
 @media (min-width: 769px) {
-  .contact-container__form__lists__list {
+  .contact__container-form-list {
     flex-direction: row;
     padding-bottom: 5rem;
   }
 }
-.contact-container__form__lists__list:last-child {
+.contact__container-form-list:last-child {
   padding: 0;
 }
-.contact-container__form__lists__list__label {
+.contact__container-form-label {
   margin-left: 0;
   margin-right: auto;
 }
 @media (min-width: 769px) {
-  .contact-container__form__lists__list__label {
+  .contact__container-form-label {
     width: 40%;
     display: flex;
     justify-content: flex-start;
   }
 }
-.contact-container__form__lists__list__radio-label {
+.contact__container-form-radio-label {
   padding-right: 1.5rem;
 }
 @media (min-width: 769px) {
-  .contact-container__form__lists__list__radio-label {
+  .contact__container-form-radio-label {
     padding-right: 3rem;
   }
 }
-.contact-container__form__lists__list__form-area {
+.contact__container-form-area {
   width: 100%;
   margin-left: 0;
   margin-right: auto;
   height: 3rem;
 }
 @media (min-width: 769px) {
-  .contact-container__form__lists__list__form-area {
+  .contact__container-form-area {
     width: 60%;
   }
 }
-.contact-container__form__lists__list__text-filed {
+.contact__container-form-text-filed {
   height: 6rem;
 }
-.contact-container__form__lists__list__radio {
+.contact__container-form-list-radio {
+  display: flex;
   flex-direction: row;
   padding-bottom: 2rem;
 }
 @media (min-width: 769px) {
-  .contact-container__form__lists__list__radio {
+  .contact__container-form-list-radio {
     padding-bottom: 5rem;
   }
 }
-.contact-container__form__lists__list__button {
+.contact__container-form-button {
   justify-content: center;
 }
-.contact-container__form__lists__list__button__btn {
+.contact__container-form-button-btn {
   width: 12rem;
   height: 3rem;
   border: none;
@@ -1045,10 +1046,10 @@ ul .slick-active {
   border-radius: 5rem;
 }
 @media (min-width: 769px) {
-  .contact-container__form__lists__list__button__btn {
+  .contact__container-form-button-btn {
     transition: 0.5s;
   }
-  .contact-container__form__lists__list__button__btn:hover {
+  .contact__container-form-button-btn:hover {
     transform: scale(1.2);
   }
 }
