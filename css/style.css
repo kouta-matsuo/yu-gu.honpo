@@ -867,87 +867,87 @@ ul .slick-active {
     padding-top: 10rem;
   }
 }
-.recruit__container__terms-heading {
+.recruit__container-terms-heading {
   font-size: 1.6rem;
 }
 @media (min-width: 769px) {
-  .recruit__container__terms-heading {
+  .recruit__container-terms-heading {
     font-size: 2rem;
   }
 }
-.recruit__container__terms-must {
+.recruit__container-terms-must {
   padding-top: 2rem;
 }
 @media (min-width: 769px) {
-  .recruit__container__terms-must {
+  .recruit__container-terms-must {
     padding-top: 5rem;
   }
 }
-.recruit__container__terms-lists {
+.recruit__container-terms-lists {
   text-align: center;
 }
-.recruit__container__terms-list {
+.recruit__container-terms-list {
   list-style: none;
   font-size: 1.4rem;
   padding-bottom: 2rem;
 }
 @media (min-width: 769px) {
-  .recruit__container__terms-list {
+  .recruit__container-terms-list {
     font-size: 1.6rem;
     padding-bottom: 4rem;
   }
 }
-.recruit__container__flow {
+.recruit__container-flow {
   padding-top: 3rem;
 }
 @media (min-width: 769px) {
-  .recruit__container__flow {
+  .recruit__container-flow {
     padding-top: 5rem;
   }
 }
-.recruit__container__flow-heading {
+.recruit__container-flow-heading {
   font-size: 1.6rem;
 }
 @media (min-width: 769px) {
-  .recruit__container__flow-heading {
+  .recruit__container-flow-heading {
     font-size: 2rem;
   }
 }
-.recruit__container__flow-box {
+.recruit__container-flow-box {
   padding-top: 2rem;
 }
 @media (min-width: 769px) {
-  .recruit__container__flow-box {
+  .recruit__container-flow-box {
     padding-top: 5rem;
   }
 }
-.recruit__container__flow-sp-lists {
+.recruit__container-flow-sp-lists {
   text-align: center;
 }
 @media (min-width: 769px) {
-  .recruit__container__flow-sp-lists {
+  .recruit__container-flow-sp-lists {
     display: none;
   }
 }
-.recruit__container__flow-sp-list {
+.recruit__container-flow-sp-list {
   list-style: none;
   font-size: 1.4rem;
   padding-bottom: 2rem;
 }
-.recruit__container__flow-sp-list:last-child {
+.recruit__container-flow-sp-list:last-child {
   padding: 0;
 }
-.recruit__container__flow-pc-lists {
+.recruit__container-flow-pc-lists {
   display: none;
 }
 @media (min-width: 769px) {
-  .recruit__container__flow-pc-lists {
+  .recruit__container-flow-pc-lists {
     display: flex;
     text-align: center;
   }
 }
 @media (min-width: 769px) {
-  .recruit__container__flow-pc-list {
+  .recruit__container-flow-pc-list {
     width: 20%;
     list-style: none;
     font-size: 1.6rem;
