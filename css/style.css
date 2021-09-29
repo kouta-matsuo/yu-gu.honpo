@@ -696,29 +696,29 @@ ul .slick-active {
     font-size: 3rem;
   }
 }
-.seisaku__container__flow {
+.seisaku__container-flow {
   padding-top: 5rem;
 }
 @media (min-width: 769px) {
-  .seisaku__container__flow {
+  .seisaku__container-flow {
     padding-top: 10rem;
     width: 100%;
   }
 }
-.seisaku__container__flow-heading {
+.seisaku__container-flow-heading {
   font-size: 1.6rem;
   padding-bottom: 2rem;
 }
 @media (min-width: 769px) {
-  .seisaku__container__flow-heading {
+  .seisaku__container-flow-heading {
     font-size: 2rem;
   }
 }
-.seisaku__container__flow-box {
+.seisaku__container-flow-box {
   width: 100%;
 }
 @media (min-width: 769px) {
-  .seisaku__container__flow-box {
+  .seisaku__container-flow-box {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -726,25 +726,25 @@ ul .slick-active {
   }
 }
 @media (min-width: 769px) {
-  .seisaku__container__flow-photo {
+  .seisaku__container-flow-photo {
     width: 50%;
   }
 }
-.seisaku__container__flow-img {
+.seisaku__container-flow-img {
   width: 100%;
   height: auto;
 }
 @media (min-width: 769px) {
-  .seisaku__container__flow-text-area {
+  .seisaku__container-flow-text-area {
     width: 50%;
   }
 }
-.seisaku__container__flow-text {
+.seisaku__container-flow-text {
   padding-top: 2rem;
   font-size: 1.2rem;
 }
 @media (min-width: 769px) {
-  .seisaku__container__flow-text {
+  .seisaku__container-flow-text {
     width: 80%;
     padding: 0;
     margin: 0 auto;
