@@ -815,20 +815,20 @@ ul .slick-active {
     padding-left: 2rem;
   }
 }
-.work__container__carousel {
+.work__container-carousel {
   padding-top: 5rem;
 }
 @media (min-width: 769px) {
-  .work__container__carousel {
+  .work__container-carousel {
     padding-top: 10rem;
   }
 }
-.work__container__carousel-img {
+.work__container-carousel-img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
-.work__container__carousel-text-area {
+.work__container-carousel-text-area {
   border: 0.1rem solid #000;
   border-top: none;
   display: flex;
@@ -837,7 +837,7 @@ ul .slick-active {
   height: 4rem;
   margin-bottom: 2rem;
 }
-.work__containercarousel-text {
+.work__container-carousel-text {
   font-size: 1.2rem;
 }
 .work__container .slick-dots {
