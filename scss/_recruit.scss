@@ -10,22 +10,22 @@
         padding-top: 10rem;
     }
     
-        &__terms-heading {
+        &-terms-heading {
             font-size: 1.6rem;
             @media(min-width: 769px) {
                 font-size: 2rem;
             }
         }
-        &__terms-must {
+        &-terms-must {
             padding-top: 2rem;
             @media(min-width: 769px) {
                 padding-top: 5rem;
             }
         }
-            &__terms-lists {
+            &-terms-lists {
                 text-align: center;
             }
-                &__terms-list {
+                &-terms-list {
                     list-style: none;
                     font-size: 1.4rem;
                     padding-bottom: 2rem;
@@ -37,31 +37,31 @@
             
         
     
-    &__flow {
+    &-flow {
         padding-top: 3rem;
         @media(min-width: 769px) {
             padding-top: 5rem;
         }
     }
-        &__flow-heading {
+        &-flow-heading {
             font-size: 1.6rem;
             @media(min-width: 769px) {
                 font-size: 2rem;
             }
         }
-        &__flow-box {
+        &-flow-box {
             padding-top: 2rem;
             @media(min-width: 769px) {
                 padding-top: 5rem;
             }
         }
-            &__flow-sp-lists {
+            &-flow-sp-lists {
                 text-align: center;
                 @media(min-width: 769px) {
                     display: none;
                 }
             }
-                &__flow-sp-list {
+                &-flow-sp-list {
                     list-style: none;
                     font-size: 1.4rem;
                     padding-bottom: 2rem;
@@ -70,14 +70,14 @@
                     }
                 }
             
-            &__flow-pc-lists {
+            &-flow-pc-lists {
                 display: none;
                 @media(min-width: 769px) {
                     display: flex;
                     text-align: center;
                 }
             }
-                    &__flow-pc-list {
+                    &-flow-pc-list {
                         @media(min-width: 769px) {
                         width: 20%;
                         list-style: none;
